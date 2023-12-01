@@ -1,0 +1,16 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Johannes Ingrisch", email = "johannes.ingrisch@posteo.net"},
+]
+dependencies = [
+    "pip>=23.3.1",
+    "ipykernel>=6.27.1",
+    "inflect>=7.0.0",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
