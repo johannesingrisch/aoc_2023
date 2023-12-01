@@ -2,7 +2,14 @@
 
 Author: Johannes Ingrisch
 
-# Requirements
+## Requirements
 
-As defined in pdm.lock. 
-For information on pdm see https://pdm-project.org/
+Python >= 3.11
+
+Virtual environment created by `pdm` as defined in `pdm.lock`. 
+
+For information on pdm see https://pdm-project.org/.
+
+
+
+
