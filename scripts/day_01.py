@@ -24,7 +24,7 @@ def solve_1(fn: str = INPUT_TEST) -> int:
     Solve puzzle 1
     """
 
-    with open(fn, "r") as f:
+    with open(fn, "r", encoding="utf-8") as f:
         calfile = [el for el in f.readlines()]
 
     my_sum = 0
@@ -42,7 +42,7 @@ def solve_2(fn: str = INPUT_TEST_2) -> int:
     """
     Solve puzzle 2
     """
-    with open(fn, "r") as f:
+    with open(fn, "r", encoding="utf-8") as f:
         calfile = [el for el in f.readlines()]
 
     digits = list(range(1, 10))
